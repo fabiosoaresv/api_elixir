@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :api_elixir, ApiElixir.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "123123",
   database: "api_elixir_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
