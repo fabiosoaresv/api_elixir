@@ -1,20 +1,27 @@
-# ApiElixir
+# O que é esse projeto?
+Um estudo de API com Elixr.
 
-To start your Phoenix server:
+# Versões
+```
+Erlang/OTP 23 [erts-11.1.7] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:1] [hipe]
+Elixir 1.11.2 (compiled with Erlang/OTP 23)
+Mix 1.11.2 (compiled with Erlang/OTP 23)
+Phoenix v1.5.8
+npm 6.14.11
+node v12.21.0
+```
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Install Node.js dependencies with `npm install` inside the `assets` directory
-  * Start Phoenix endpoint with `mix phx.server`
+# Dependências
+```console
+$ mix deps.get
+```
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+# Configuração
+```console
+$ mix ecto.setup
+$ npm install
+$ mix phx.server
+```
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+# Referências
+- https://pamit.medium.com/building-a-restful-backend-with-elixir-phoenix-84fe390975c
